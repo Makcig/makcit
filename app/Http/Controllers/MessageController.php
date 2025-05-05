@@ -54,37 +54,6 @@ class MessageController extends Controller
             return redirect()->back()->withErrors(['captcha' => 'reCAPTCHA verification failed.']);
         }
 
-        // $recaptcha_token = $request->input('g-recaptcha-response');
-        // $recaptcha_site = '6LeXcHEqAAAAAAJ-o1ynEqaRKUVkTQ4yT4SVP7Op';  // Put here your Site Key
-        // $recaptcha_project_id = 'makcit-1730374519771';  // Product ID from Google Cloud, need for use Recaptcha Enterprise
-
-
-        // $API_KEY = 'AIzaSyCQ02TS8PYFvZ5sDkYArBL0xguAWAtyeQY';
-
-        // $recaptcha_url = "https://recaptchaenterprise.googleapis.com/v1/projects/$recaptcha_project_id/assessments?key=$API_KEY";
-
-        // $response = Http::post($recaptcha_url, [
-        //     'event' => [
-        //         'token' => $recaptcha_token,
-        //         'siteKey' => $recaptcha_site,
-        //         'expectedAction' => 'submit',
-        //     ],
-        // ]);
-
-        // $recaptcha_result = $response->json();
-
-        // $recaptcha_score_threshold = 0.5;
-
-        // if (!isset($recaptcha_result['tokenProperties']) || !isset($recaptcha_result['riskAnalysis'])) {
-        //     Log::info('reCAPTCHA Response:', $recaptcha_result);
-        //     return redirect()->back()->withErrors(['captcha' => 'Error reCAPTCHA: wrong response from Google.']);
-        // }
-
-        // if (!$recaptcha_result['tokenProperties']['valid'] || $recaptcha_result['riskAnalysis']['score'] < $recaptcha_score_threshold) {
-        //     Log::info('reCAPTCHA Response:', $recaptcha_result);
-        //     return redirect()->back()->withErrors(['captcha' => 'reCAPTCHA verification failed.']);
-        // }
-
         // Save the message to the database
         $message = Message::create($validated);
 
