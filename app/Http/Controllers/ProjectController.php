@@ -20,6 +20,7 @@ class ProjectController extends Controller
                 'logo' => '/Images/ttsmanager.jpg',
                 'link' => 'https://ttsmanager.tts.fi/',
                 'bgColor' => 'card-bg-7',
+                'github' => '',
             ],
             [
                 'title' => 'TTS-Kone',
@@ -33,6 +34,7 @@ class ProjectController extends Controller
                 'logo' => '/Images/ttskone.png',
                 'link' => 'https://ttskone.tts.fi/',
                 'bgColor' => 'card-bg-1',
+                'github' => '',
             ],
             [
                 'title' => 'Hinnoittelulaskuri',
@@ -46,6 +48,7 @@ class ProjectController extends Controller
                 'logo' => '/Images/hinnottelulaskuri.jpg',
                 'link' => 'https://hinnoittelulaskuri.tts.fi/',
                 'bgColor' => 'card-bg-1',
+                'github' => '',
             ],
             [
                 'title' => 'MAKC IT',
@@ -59,6 +62,7 @@ class ProjectController extends Controller
                 'logo' => 'LOGO.jpg',
                 'link' => '',
                 'bgColor' => 'card-bg-6',
+                'github' => 'https://github.com/Makcig/makcit',
             ],
         ];
 

@@ -3,7 +3,7 @@
 @section('content')
 <div class="container">
     <div class="row">
-        <!-- Заголовок -->
+
         <div class="col-12 text-center mt-4">
             <h1 class="fw-bold">Admin Panel</h1>
             <p class="text-muted">Manage your skills efficiently</p>
@@ -11,7 +11,7 @@
     </div>
 
     <div class="row mt-4">
-        <!-- Карточка статистики -->
+
         <div class="col-md-6">
             <div class="card border-primary shadow-sm">
                 <div class="card-body">
@@ -22,7 +22,6 @@
             </div>
         </div>
 
-        <!-- Карточка управления -->
         <div class="col-md-6">
             <div class="card border-success shadow-sm">
                 <div class="card-body text-center">

@@ -55,6 +55,14 @@
                                 </a>
                             </div>
                             @endif
+                            @if (!empty($project['github']))
+                            <div class="mt-auto pt-2">
+                                <a href="{{ $project['github'] }}" target="_blank" rel="noopener noreferrer"
+                                    class="btn btn-outline-success font-merriweather w-100">
+                                    View on GitHub
+                                </a>
+                            </div>
+                            @endif
                         </div>
                     </div>
                 </div>

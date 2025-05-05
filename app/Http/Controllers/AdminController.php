@@ -9,7 +9,7 @@ class AdminController extends Controller
 {
     public function dashboard()
     {
-        $skillCount = Skill::count(); // Получаем количество скиллов
+        $skillCount = Skill::count();
         return view('admin.dashboard', compact('skillCount'));
     }
 }

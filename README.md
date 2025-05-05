@@ -20,13 +20,12 @@ The website is designed to be a dynamic and interactive platform, featuring a fu
 - **Eloquent ORM**: For database interactions and migrations.
 
 ### Frontend
-- **Bootstrap 4/5**: For responsive and modern UI components.
+- **Bootstrap 5**: For responsive and modern UI components.
 - **JavaScript**: For interactive features and animations.
 - **CSS**: Custom styles for unique design elements.
 
 ### APIs and Integrations
 - **Google reCAPTCHA**: For spam prevention in the contact form.
-- **Google Maps API**: Used in some projects for location-based features.
 
 ### Other Tools
 - **Blade Templates**: For dynamic and reusable frontend components.
@@ -49,9 +48,9 @@ The website is designed to be a dynamic and interactive platform, featuring a fu
 - **Migrations**: Define and manage database schema (e.g., `admins`, `skills` tables).
 - **Models**: Represent database entities like `Skill` and `Admin`.
 
-## Where to find a project
+## Live Demo
 
-Project is running on the https://makcit.fi/
+You can explore the live version of the project at [makcit.fi](https://makcit.fi/). Visit the site to see my portfolio, skills, and projects in action.
 
 ## License
 

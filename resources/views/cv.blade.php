@@ -3,7 +3,7 @@
 @section('content')
     <div class="container py-5">
 
-        {{-- 🔷 Персональная информация --}}
+
         <div class="about-section text-center mb-3 project-box">
             <h1 class="fw-bold text-center text-success">Maxim Koskela</h1>
             <p class="text-center text-muted">
@@ -122,7 +122,7 @@
                 entries.forEach(entry => {
                     if (entry.isIntersecting) {
                         entry.target.classList.add("animate-fill");
-                        observer.unobserve(entry.target); // один раз
+                        observer.unobserve(entry.target);
                     }
                 });
             }, {

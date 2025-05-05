@@ -2,17 +2,16 @@
 <!-- resources/views/partials/header.blade.php -->
 <nav class="navbar navbar-expand-lg py-3 text-white" style="background: linear-gradient(90deg, #2dc7a7, #16233b);">
     <div class="container">
-        <!-- Логотип -->
+
         <a class="navbar-brand d-flex align-items-center" href="{{ url('/') }}">
             <img src="{{ asset('public/LOGO.jpg') }}" alt="MakcIT" style="height: 40px; border-radius: 5px;">
         </a>
 
-        <!-- Гамбургер (показывается на мобильных) -->
+
         <button class="navbar-toggler border-0 text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <i class="fas fa-bars"></i>
         </button>
 
-        <!-- Основное меню -->
         <div class="collapse navbar-collapse d-md-none" id="navbarNav">
             <ul class="navbar-nav me-auto">
                 <li class="nav-item">
@@ -27,13 +26,13 @@
             </ul>
 
             <div class="d-flex align-items-center">
-                <!-- Тема -->
+
                 <div id="theme-toggle" class="theme-toggle-icon me-3" onclick="toggleTheme()">
                     <i id="moon-icon" class="fas fa-moon active"></i>
                     <i id="sun-icon" class="fas fa-sun"></i>
                 </div>
 
-                <!-- Кнопка "Send message" -->
+
                 <button type="button" class="btn btn-outline-light d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#messageModal">
                     <i class="fas fa-envelope"></i>
                     <span class="d-none d-sm-inline ms-2">Send message</span>
@@ -41,7 +40,7 @@
             </div>
         </div>
 
-        <!-- Кнопки справа -->
+
 
     </div>
 </nav>
@@ -125,29 +124,4 @@
             messageModal.show();
         @endif
     });
-
-
-
-    // document.addEventListener("DOMContentLoaded", function () {
-    //     const body = document.body;
-    //     const sunIcon = document.getElementById("sun-icon");
-    //     const moonIcon = document.getElementById("moon-icon");
-
-    //     function updateIcons() {
-    //         const isDark = body.classList.contains("dark-mode");
-    //         sunIcon.classList.toggle("active", isDark);
-    //         moonIcon.classList.toggle("active", !isDark);
-    //     }
-
-    //     if (localStorage.getItem("theme") === "dark") {
-    //         body.classList.add("dark-mode");
-    //     }
-    //     updateIcons();
-
-    //     window.toggleTheme = function () {
-    //         body.classList.toggle("dark-mode");
-    //         localStorage.setItem("theme", body.classList.contains("dark-mode") ? "dark" : "light");
-    //         updateIcons();
-    //     };
-    // });
 </script>
