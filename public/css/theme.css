@@ -1,0 +1,25 @@
+/* В public/css/theme.css */
+
+/* Светлая тема (по умолчанию) */
+:root {
+  --bs-body-bg: #ffffff;
+  --bs-body-color: #000000;
+  --bs-primary: #0d6efd;
+  --bs-secondary: #6c757d;
+  --bs-success: #198754;
+  --bs-info: #0dcaf0;
+  --bs-warning: #ffc107;
+  --bs-danger: #dc3545;
+}
+
+/* Тёмная тема */
+.dark-mode {
+  --bs-body-bg: #121212;
+  --bs-body-color: #ffffff;
+  --bs-primary: #bb86fc;
+  --bs-secondary: #03dac6;
+  --bs-success: #03dac6;
+  --bs-info: #03dac6;
+  --bs-warning: #cf6679;
+  --bs-danger: #cf6679;
+}
