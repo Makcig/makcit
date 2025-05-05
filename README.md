@@ -49,7 +49,7 @@ The website is designed to be a dynamic and interactive platform, featuring a fu
 - **Migrations**: Define and manage database schema (e.g., `admins`, `skills` tables).
 - **Models**: Represent database entities like `Skill` and `Admin`.
 
-## Where to fine a project
+## Where to find a project
 
 Project is running on the https://makcit.fi/
 
