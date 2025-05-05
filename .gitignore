@@ -29,3 +29,7 @@ client_secret_*.json
 makcit-*.json
 makcit-1730374519771-4a63b0fcb7c9.json
 client_secret_745414779804-3qkq63b3d36v4md64ajq7dkds6c251jo.apps.googleusercontent.com.json
+*.log
+*.sql
+.editconfig
+

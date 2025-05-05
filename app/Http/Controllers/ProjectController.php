@@ -53,7 +53,7 @@ class ProjectController extends Controller
             [
                 'title' => 'MAKC IT',
                 'description' => 'This is the site you\'re currently browsing. I built it to showcase my skills and personal projects. The site is developed using modern web technologies, including Laravel for the backend and JavaScript for the interactive frontend. It features a fully functional backend with database integration, allowing for dynamic content management such as adding and updating project data. Everything here was designed and coded by me from scratch to demonstrate both technical proficiency and attention to detail.',
-                'technologies' => ['Laravel', 'JavaScript', 'SQL', 'Bootstrap 5'],
+                'technologies' => ['Laravel', 'JavaScript', 'SQL', 'Bootstrap 5', 'Eloquent ORM'],
                 'images' => [
                     '/LOGO.jpg',
                     '',
